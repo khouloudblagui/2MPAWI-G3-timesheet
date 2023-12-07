@@ -1,5 +1,4 @@
 FROM openjdk:latest
 EXPOSE 8080
-ARG JAR_FILE=target/timesheet-devops.jar
-ADD ${JAR_FILE} timesheet-devops.jar
-ENTRYPOINT ["java","-jar","/timesheet-devops.jar"]
+ADD target/timesheet-devops-0.0.3-SNAPSHOT.jar timesheet-devops-0.0.3-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","/timesheet-devops-0.0.3-SNAPSHOT.jar"]
