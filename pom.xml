@@ -13,6 +13,7 @@
 	<groupId>tn.esprit.spring.services</groupId>
 	<artifactId>timesheet-devops</artifactId>
 	<version>0.0.3-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>timesheet-devops</name>
 	<description>tp-spring-jsf-crud</description>
 
