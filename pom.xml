@@ -12,7 +12,7 @@
 
 	<groupId>tn.esprit.spring.services</groupId>
 	<artifactId>timesheet-devops</artifactId>
-	<version>1.0</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<name>timesheet-devops</name>
 	<description>tp-spring-jsf-crud</description>
 
