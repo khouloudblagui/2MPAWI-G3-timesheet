@@ -1,4 +1,4 @@
 FROM openjdk:latest
 EXPOSE 8083
-ADD target/timesheet-devops-0.0.3-SNAPSHOT.jar timesheet-devops-0.0.3-SNAPSHOT.jar
-ENTRYPOINT ["java","-jar","/timesheet-devops-1.0.jar"]
+ADD target/docker-spring-boot.jar docker-spring-boot.jar
+ENTRYPOINT ["java","-jar","/docker-spring-boot.jar"]
